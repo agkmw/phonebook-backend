@@ -1,0 +1,6 @@
+# get a person
+GET http://localhost:3001/api/persons/4 HTTP/1.1
+
+###
+# get a non-existent person
+GET http://localhost:3001/api/persons/1000 HTTP/1.1
